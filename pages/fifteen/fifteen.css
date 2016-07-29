@@ -1,0 +1,55 @@
+/*
+	Josh Nazarian
+	CSE 154, CF
+
+	Homework Assignmnet #8: Fifteen Puzzle - sliding puzzle game
+	Contents: CSS appearance for fifteen.html
+	Extra Features: #1 and #6
+*/
+
+body {
+	font-size: 14pt;
+	text-align: center;
+}
+
+body, button, option, select, .tile {
+	font-family: cursive;
+}
+
+select {
+	margin-right: 10px;
+}
+
+#output {
+	font-size: 400%;
+	font-weight: bold;
+}
+
+#puzzlearea {
+	height: 400px;
+	margin: auto;
+	position: relative;
+	width: 400px;
+}
+
+.highlight:hover {
+	border-color: #FF0000;
+	color: #FF0000;
+	cursor: pointer;
+}
+
+.nohighlight {
+	border-color: #000000;
+	color: #000000;
+	cursor: default;
+}
+
+.tile {
+	background-image: url("background.jpg");
+	border-style: solid;
+	border-width: 5px;
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+}

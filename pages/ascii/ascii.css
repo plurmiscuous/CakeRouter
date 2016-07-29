@@ -1,0 +1,71 @@
+/*
+	Josh Nazarian
+	CSE 154, CF
+	
+	Homework Assignmnet #7: ASCIImation - Animated ASCII art using JavaScript
+	Contents: CSS appearance for ascii.html
+*/
+
+body {
+	background-color: #CCCCFF;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+body, button, input, option, select, textarea {
+	font-family: sans-serif;
+}
+
+/* psuedo-class selector to avoid using unnecessary #id or "p {margin: 0;}" */
+div:last-of-type {
+	text-align: right;
+}
+
+fieldset {
+	border: 5px solid #000000;
+	border-radius: 10px;
+	display: inline;
+	vertical-align: text-top;
+}
+
+h1 {
+	font-size: 32pt;
+	margin: 0;
+}
+
+legend {
+	text-align: left;
+}
+
+textarea {
+	font-family: monospace;
+	height: 400px;
+	width: 90%;
+}
+
+/* classes for variable styles applied to textarea */
+.tiny {
+	font-size: 7pt;
+}
+
+.small {
+	font-size: 10pt;
+}
+
+.medium {
+	font-size: 12pt;
+}
+
+.large {
+	font-size: 16pt;
+}
+
+.xl {
+	font-size: 24pt;
+}
+
+.xxl {
+	font-size: 32pt;
+}
+/* end of classes for textarea styles */

@@ -1,0 +1,23 @@
+{
+  "name": "cake-router",
+  "version": "0.4.17",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "deepcopy": "^0.6.1",
+    "http-proxy-agent": "^1.0.0",
+    "https-proxy-agent": "^1.0.0",
+    "ursa": "0.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "exit 0"
+  },
+  "author": "",
+  "license": "None",
+  "engineStrict": true,
+  "engines": {
+    "node": "5.4.1"
+  }
+}
