@@ -1,7 +1,7 @@
 CakeRouter - _Because cakes have layers too_
 ============================================
 
-Toy anonymous browsing network modeled after the Tor system.
+Anonymous browsing network modeled after the Tor system.
 
 ## About
 
