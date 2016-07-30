@@ -1,3 +1,0 @@
-#!/bin/bash
-
-node --harmony main.js $1 $2 $3
