@@ -22,7 +22,7 @@ Major changes from the original project are as follows:
 ## TODO
 
 + Change all callbacks to be error-first
-+ Design and implement a mechanism for key exchange between unqiue pairs of nodes
++ Design and implement a mechanism for key exchange between unique pairs of nodes
 + Bugs:
     - Annoying TLSSocket timeout at random times (might just need to alter a config/options setting)
     - Every once in a while, the proxy fails to load cnn.com and simply hangs
